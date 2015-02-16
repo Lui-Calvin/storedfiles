@@ -87,7 +87,7 @@ public class CharMatrix
   {
 	  int count = 0;
 	  for(int i = 0;i<Matrix[row].length;i++) {
-		  if(Matrix[row][i] == ' ') {
+		  if(Matrix[row][i] != ' ') {
 			  count++;
 		  }
 	  }
@@ -99,7 +99,7 @@ public class CharMatrix
   {
 	  int count = 0;
 	  for(int i = 0;i<Matrix.length;i++) {
-		  if(Matrix[i][col] == ' ') {
+		  if(Matrix[i][col] != ' ') {
 			  count++;
 		  }
 	  }
